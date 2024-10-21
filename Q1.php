@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // test inputs if bot are string
     if (is_numeric($input1) && is_numeric($input2)) {
         $result = $input1 * $input2;
-        echo "هر دو ورودی عددی هستند. نتیجه ضرب: " . $result;
+        echo "bot are number" . $result;
     }
     // test if one is string or not
     elseif (is_string($input1) || is_string($input2)) {
